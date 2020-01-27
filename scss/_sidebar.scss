@@ -1,0 +1,36 @@
+.sidebar{
+    position: relative;
+}
+
+img {
+    margin-top: 5px;
+    box-shadow: 0 1px 32px rgba(239, 240, 241, 0);
+}
+
+figcaption{
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    small{
+        font-size: 32px;
+        font-weight: inherit;
+    }
+}
+
+.main-menu {
+    li {
+        border-bottom: 1px solid white;
+        padding: 8px;
+        transition: .3s ease-out;
+        
+        a {
+            @include text-link-large;
+            transition: inherit;
+            
+            i {
+                margin: 0 12px 0 18px;
+            }
+        }
+    }
+}
